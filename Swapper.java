@@ -1,4 +1,4 @@
-import cs1.Keyboard;
+import Keyboard;
 
 public class Swapper {
 
