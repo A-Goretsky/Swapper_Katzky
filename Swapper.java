@@ -4,6 +4,7 @@ public class Swapper {
 
     public static void swapStrings (String[][] a, int row1, int col1, int row2, int col2) {
       if (row1<a.length && col1<a[row1].length && row2<a.length && col2<a[row2].length){
+      	print2(a);
 	String temp1 = a[row1][col1];
 	a[row1][col1] = a[row2][col2];
 	a[row2][col2]=temp1;
