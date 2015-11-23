@@ -24,13 +24,13 @@ public class Swapper {
         {"g","h","i","3"}
       };
       System.out.print( "Row 1 location: " );
-	int _r1 = Integer.parseInt(Keyboard.readString());
+	int _r1 =Keyboard.readInt();
       System.out.print( "Column 1 location: " );
-	int _c1 = Integer.parseInt(Keyboard.readString());
+	int _c1 = Keyboard.readInt();
       System.out.print( "Row 2 location: " );
-	int _r2 = Integer.parseInt(Keyboard.readString());
+	int _r2 = Keyboard.readInt();
       System.out.print( "Column 2 location: " );
-	int _c2 = Integer.parseInt(Keyboard.readString());
+	int _c2 = Keyboard.readInt();
 	swapStrings(_a,_r1,_c1,_r2,_c2);
       //print2(_a);
 
